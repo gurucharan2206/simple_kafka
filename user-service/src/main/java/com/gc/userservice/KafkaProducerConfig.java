@@ -1,6 +1,6 @@
 package com.gc.userservice;
 
-import com.gc.userservice.dto.UserCreatedEvent;
+import com.gc.event.dto.UserCreatedEvent;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.boot.CommandLineRunner;

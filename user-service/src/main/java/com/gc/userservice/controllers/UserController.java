@@ -1,6 +1,6 @@
 package com.gc.userservice.controllers;
 
-import com.gc.userservice.dto.UserCreatedEvent;
+import com.gc.event.dto.UserCreatedEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;

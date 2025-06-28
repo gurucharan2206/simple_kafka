@@ -18,10 +18,5 @@ public class ConsumerServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerServiceApplication.class, args);
 	}
-
-	@PostConstruct
-	public void printKafkaConfig() {
-		System.out.println("Bootstrap servers: " + env.getProperty("spring.kafka.bootstrap-servers"));
-	}
-
 }
+

@@ -1,4 +1,4 @@
-package com.gc.userservice.dto;
+package com.gc.event.dto;
 
 public class UserCreatedEvent {
     private String userId;
