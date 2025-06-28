@@ -9,12 +9,6 @@ import org.springframework.core.env.Environment;
 @SpringBootApplication
 public class ConsumerServiceApplication {
 
-	private final Environment env;
-
-	public ConsumerServiceApplication(Environment env) {
-		this.env = env;
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerServiceApplication.class, args);
 	}
